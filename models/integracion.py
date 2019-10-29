@@ -1,7 +1,7 @@
 #-*- coding:utf-8 -*-
 
 from openerp import _, api, fields, models
-from suds.client import Client
+
 
 class tipsa_servicio(models.Model):
     _name = 'tipsa.servicio'
@@ -17,9 +17,5 @@ class tipsa_servicio(models.Model):
 
 
 
-    @api.multi
-    def conect(self):
-        client = Client(self.url_login)
-        print client
 
 
