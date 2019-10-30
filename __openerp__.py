@@ -12,7 +12,8 @@
     'website': 'https://www.quadit.mx',
     'data': [
     'views/integracion.xml',
-    'wizard/ws_etiqueta.xml'
+    'wizard/ws_etiqueta.xml',
+    'report/report_etiqueta.xml'
     ],
     'demo': [],
     'installable': True
